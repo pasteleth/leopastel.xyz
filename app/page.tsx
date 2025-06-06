@@ -25,8 +25,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Header */}
-      <header className="px-6 py-8 md:px-12 lg:px-24">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">Leo Pastel</h1>
+      <header className="px-6 py-8 md:px-12 lg:px-24 text-center">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold" style={{ letterSpacing: "-0.05em" }}>
+          Leo Pastel
+        </h1>
         <p className="text-lg md:text-xl mt-2 font-bold">❦ Cincinnati, Ohio ✞</p>
       </header>
 
@@ -57,7 +59,9 @@ export default function Home() {
       {/* Bio Section */}
       <section className="px-6 md:px-12 lg:px-24 mb-16">
         <div className="max-w-3xl">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 tracking-wide">ABOUT</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ letterSpacing: "-0.01em" }}>
+            ABOUT
+          </h2>
           <div className="space-y-6 text-base md:text-lg leading-relaxed font-bold">
             <p>
               Leo Pastel made his debut in 2018 with "Woah", a track created alongside close friends Muwosi and
@@ -126,7 +130,9 @@ export default function Home() {
 
       {/* Mosaic Gallery */}
       <section className="px-6 md:px-12 lg:px-24 mb-16">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 tracking-wide">GALLERY</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ letterSpacing: "-0.01em" }}>
+          GALLERY
+        </h2>
         <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-2 space-y-2">
           {/* Meta SXSW - Portrait orientation */}
           <div
@@ -287,7 +293,9 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-12 md:gap-24">
           {/* Music Links */}
           <div className="flex-1">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 tracking-wide">MUSIC</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ letterSpacing: "-0.01em" }}>
+              MUSIC
+            </h2>
             <div className="flex gap-6 overflow-x-auto">
               <a
                 href="https://music.apple.com/us/artist/leo-pastel/1402898502"
@@ -353,7 +361,12 @@ export default function Home() {
 
           {/* Social Links */}
           <div className="flex-1">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 tracking-wide text-right md:text-right">CONNECT</h2>
+            <h2
+              className="text-2xl md:text-3xl font-bold mb-8 text-right md:text-right"
+              style={{ letterSpacing: "-0.01em" }}
+            >
+              CONNECT
+            </h2>
             <div className="flex gap-6 justify-end overflow-x-auto">
               <a
                 href="https://instagram.com/1980wavy"
