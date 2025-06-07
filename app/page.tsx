@@ -237,7 +237,7 @@ export default function Home() {
                 )}
               </div>
 
-              {/* Sunday Service - Animated GIF */}
+              {/* Sunday Service - Animated GIF - NOW USING IMGUR */}
               <div
                 className="relative group cursor-pointer break-inside-avoid mb-2"
                 onMouseEnter={() => setHoveredImage("sunday-service.gif")}
@@ -245,7 +245,7 @@ export default function Home() {
               >
                 <div className="w-full overflow-hidden">
                   <img
-                    src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG04aDhuMThsenp4NGpieDh2MzhsZXZleTV0M2d2amlnMzBtbThhdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t6RGlcPUpfh0bjxSnK/giphy.gif"
+                    src="https://i.imgur.com/nOh39HE.gif"
                     alt="Sunday Service"
                     className="w-full h-auto transition-all duration-300 group-hover:brightness-75"
                     style={{ aspectRatio: "400/225" }}
