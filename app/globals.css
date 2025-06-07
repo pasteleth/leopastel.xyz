@@ -30,6 +30,104 @@ a {
   }
 }
 
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+.fade-overlay {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 30%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.1) 70%,
+    rgba(0, 0, 0, 0.3) 80%,
+    rgba(0, 0, 0, 0.5) 85%,
+    rgba(0, 0, 0, 0.7) 90%,
+    rgba(0, 0, 0, 0.85) 95%,
+    rgba(0, 0, 0, 0.95) 100%
+  );
+}
+
+/* Y2K Star Menu styling */
+.y2k-star-button {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.y2k-star-button:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.y2k-menu {
+  min-width: 140px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Windows 95 styling - Black version */
+.win95-window-black {
+  border: 2px outset #333333;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.win95-titlebar-black {
+  border-bottom: 1px solid #555555;
+}
+
+.win95-button-black {
+  border: 1px outset #333333;
+  font-family: "MS Sans Serif", sans-serif;
+  line-height: 1;
+}
+
+.win95-button-black:hover {
+  border: 1px inset #333333;
+}
+
+.win95-button-black:active {
+  border: 1px inset #333333;
+  background-color: #111111 !important;
+}
+
+.win95-inset-black {
+  border: 2px inset #333333;
+  padding: 2px;
+}
+
+.win95-icon-black {
+  border: 1px outset #333333;
+  font-size: 10px;
+}
+
+/* Windows 95 menu styling */
+.win95-menu {
+  border: 1px outset #333333;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  min-width: 120px;
+}
+
+.win95-menu-item {
+  border: none;
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: 12px;
+  transition: background-color 0.1s;
+}
+
+.win95-menu-item:hover {
+  border: 1px inset #333333;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

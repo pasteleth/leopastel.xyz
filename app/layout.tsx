@@ -6,10 +6,10 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Leo Pastel - Multisensory Artist",
+  title: "Leo Pastel",
   description:
-    "Leo Pastel is a multisensory artist from Cincinnati, Ohio. Early adopter of AI music, contributor to onchain music space, and co-founder of THE 3THER creative collective.",
-    generator: 'v0.dev'
+    "Leo Pastel is an artist from Cincinnati, Ohio. Early adopter of AI music, contributor to onchain music space, and co-founder of THE 3THER creative collective.",
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
