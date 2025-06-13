@@ -59,8 +59,8 @@ export default function ContactModal() {
             <div className="w-full bg-black win95-inset-black">
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScCK4qUNjuGfQSA8cVLIsCvkoFmp1G18xQdE8GnfW3o4B6F8g/viewform?embedded=true"
-                width="100%"
-                height="500"
+                width="96%"
+                height="507"
                 frameBorder="0"
                 marginHeight="0"
                 marginWidth="0"

@@ -237,7 +237,7 @@ export default function Home() {
                 )}
               </div>
 
-              {/* Sunday Service - Animated GIF - NOW USING IMGUR */}
+              {/* Sunday Service - Animated GIF - Using local file instead */}
               <div
                 className="relative group cursor-pointer break-inside-avoid mb-2"
                 onMouseEnter={() => setHoveredImage("sunday-service.gif")}
@@ -245,7 +245,7 @@ export default function Home() {
               >
                 <div className="w-full overflow-hidden">
                   <img
-                    src="https://i.imgur.com/nOh39HE.gif"
+                    src="/images/sunday-service.gif"
                     alt="Sunday Service"
                     className="w-full h-auto transition-all duration-300 group-hover:brightness-75"
                     style={{ aspectRatio: "400/225" }}
