@@ -86,7 +86,10 @@ export default function Home() {
 
         {/* Header */}
         <header className="px-6 py-8 md:px-12 lg:px-24 text-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold" style={{ letterSpacing: "-0.05em" }}>
+          <h1
+            className="text-5xl md:text-8xl lg:text-[10.5rem] leading-none whitespace-nowrap font-bold"
+            style={{ letterSpacing: "-0.08em" }}
+          >
             Leo Pastel
           </h1>
           <p className="text-lg md:text-xl mt-2 font-bold">❦ Cincinnati, Ohio ✞</p>
