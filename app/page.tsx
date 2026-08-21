@@ -94,7 +94,7 @@ export default function Home() {
 
         {/* Hero Image */}
         <section className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <div
               className="relative aspect-[4/3] md:aspect-[16/9] group cursor-pointer"
               onMouseEnter={() => setHoveredImage("FWB-LEO-keeganburckhard-3968.JPG")}
