@@ -85,16 +85,30 @@ export default function Home() {
         </div>
 
         {/* Header */}
-        <header className="px-6 py-8 md:px-12 lg:px-24 text-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold" style={{ letterSpacing: "-0.05em" }}>
-            Leo Pastel
+        <header className="max-w-3xl mx-auto px-0 py-8 text-left">
+          <h1
+            className="text-5xl md:text-8xl lg:text-[11.75rem] leading-none whitespace-nowrap font-bold"
+style={{ letterSpacing: "-0.05em" }}
+            aria-label="Leo Pastel"
+          >
+            <span aria-hidden="true">
+              <span style={{ marginRight: "-0.015em" }}>L</span>
+              <span style={{ marginRight: "0.01em" }}>e</span>
+              <span style={{ marginRight: "0.12em" }}>o</span>
+              <span style={{ marginRight: "0.02em" }}>P</span>
+              <span style={{ marginRight: "0.005em" }}>a</span>
+              <span style={{ marginRight: "-0.01em" }}>s</span>
+              <span style={{ marginRight: "0.005em" }}>t</span>
+              <span style={{ marginRight: "0.005em" }}>e</span>
+              <span>l</span>
+            </span>
           </h1>
           <p className="text-lg md:text-xl mt-2 font-bold">❦ Cincinnati, Ohio ✞</p>
         </header>
 
         {/* Hero Image */}
         <section className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <div
               className="relative aspect-[4/3] md:aspect-[16/9] group cursor-pointer"
               onMouseEnter={() => setHoveredImage("FWB-LEO-keeganburckhard-3968.JPG")}
@@ -124,20 +138,21 @@ export default function Home() {
             {/* Removed the h2 heading here */}
             <div className="space-y-6 text-base md:text-lg leading-relaxed font-bold">
               <p>
-                Leo Pastel made his debut in 2018 with "Woah", a track created alongside close friends Muwosi and
-                internetboy. The song's early success launched a dynamic career that has included performing with Kanye
-                West's Sunday Service Choir, being tapped by The National to play their Cincy-based Homecoming Festival,
-                and co-founding the Detroit-based indie band Hard Car Kids.
+                Leo Pastel is a multidisciplinary artist from Cincinnati, Ohio. Raised in a family where music was woven
+                into everyday life, he developed his voice in church before releasing his debut single, "Woah", in 2018,
+                the first iteration of a sound that culminated in "Oxytocin" in 2023.
               </p>
               <p>
-                A self-described "multisensory artist", Leo loves experimenting with novel technology. He's an early
-                adopter of AI music, an active contributor to the onchain music space, and also works as a freelance
-                graphic and UX designer.
+                Drawing from alternative R&B, indie, gospel, funk, soul, and electronic music, Leo’s work is rooted in
+                vulnerability, harmony, and exploration. Outside of his solo releases, he’s a founding member of the
+                Detroit-based boyband Hard Car Kids, has performed with Ye’s Sunday Service Choir, and was tapped by
+                fellow Cincinnati natives, The National, to perform at their Homecoming Festival.
               </p>
               <p>
-                Leo cares deeply about family and community. Raised one of six in a faith-driven household, he now
-                channels those values into THE 3THER—a grassroots creative collective traveling the country and hosting
-                events, while staying true to its mission of spreading love through art.
+                Leo’s work is informed by an interdisciplinary approach spanning design, psychology, and creative
+                technology. He’s deeply interested in ways humans experience, connect, and create in a sustainable
+                fashion. He funnels the same inquiry through every medium, exploring how creativity keeps us grounded
+                in an ever-changing world.
               </p>
             </div>
           </div>
@@ -145,7 +160,7 @@ export default function Home() {
 
         {/* Image Gallery */}
         <section className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <div
                 className="relative aspect-[3/4] group cursor-pointer"
@@ -192,7 +207,7 @@ export default function Home() {
 
         {/* Mosaic Gallery */}
         <section id="gallery-section" className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             {/* Removed the h2 heading here */}
             <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-2 space-y-2">
               {/* Meta SXSW - Portrait orientation */}
@@ -356,21 +371,21 @@ export default function Home() {
 
         {/* Music & Social Links */}
         <section id="music-section" className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-6xl mx-auto">
-            <div className="flex flex-col md:flex-row gap-12 md:gap-24">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-12">
               {/* Music Links */}
-              <div className="flex-1">
-                <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ letterSpacing: "-0.01em" }}>
+              <div className="min-w-0 flex-1">
+                <h2 className="text-xl md:text-2xl font-bold mb-6" style={{ letterSpacing: "-0.01em" }}>
                   MUSIC
                 </h2>
-                <div className="flex gap-6 overflow-x-auto">
+                <div className="flex gap-3 overflow-x-auto">
                   <a
                     href="https://music.apple.com/us/artist/leo-pastel/1402898502"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Music className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold whitespace-nowrap">APPLE MUSIC</span>
@@ -382,7 +397,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Radio className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">SPOTIFY</span>
@@ -394,7 +409,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Headphones className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">TIDAL</span>
@@ -406,7 +421,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Globe className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">AUDIUS</span>
@@ -418,7 +433,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Disc3 className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">BANDCAMP</span>
@@ -427,21 +442,21 @@ export default function Home() {
               </div>
 
               {/* Social Links */}
-              <div id="connect-section" className="flex-1">
+              <div id="connect-section" className="min-w-0 flex-1">
                 <h2
-                  className="text-2xl md:text-3xl font-bold mb-8 text-right md:text-right"
-                  style={{ letterSpacing: "-0.01em" }}
+                  className="text-xl md:text-2xl font-bold mb-6 text-right md:text-right"
+style={{ letterSpacing: "-0.035em" }}
                 >
                   CONNECT
                 </h2>
-                <div className="flex gap-6 justify-end overflow-x-auto">
+                <div className="flex gap-3 justify-end overflow-x-auto">
                   <a
                     href="https://instagram.com/1980wavy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Instagram className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">INSTAGRAM</span>
@@ -453,7 +468,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Twitter className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">X</span>
@@ -465,7 +480,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Video className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">TIKTOK</span>
@@ -477,7 +492,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Globe className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">FARCASTER</span>
