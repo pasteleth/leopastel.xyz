@@ -445,7 +445,7 @@ export default function Home() {
               <div id="connect-section" className="min-w-0 flex-1">
                 <h2
                   className="text-xl md:text-2xl font-bold mb-6 text-right md:text-right"
-                  style={{ letterSpacing: "-0.01em" }}
+style={{ letterSpacing: "-0.035em" }}
                 >
                   CONNECT
                 </h2>
