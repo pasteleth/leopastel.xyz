@@ -95,16 +95,15 @@ export default function Home() {
             <div
               className="relative aspect-[4/3] md:aspect-[16/9] group cursor-pointer"
               aria-label="Leo Pastel portrait"
+              onMouseEnter={() => setHoveredImage("FWB-LEO-keeganburckhard-3968.JPG")}
+              onMouseLeave={() => setHoveredImage(null)}
             >
               <h1
-                className="absolute inset-x-0 top-1/2 z-10 -translate-y-1/2 px-2 text-center text-7xl font-bold leading-[0.82] break-words sm:text-8xl md:text-9xl lg:text-[10rem]"
+                className="absolute inset-x-4 top-4 z-10 text-center text-[clamp(3.5rem,12vw,9rem)] font-bold leading-[0.82] whitespace-nowrap"
                 style={{ letterSpacing: "-0.08em" }}
               >
                 Leo Pastel
               </h1>
-              onMouseEnter={() => setHoveredImage("FWB-LEO-keeganburckhard-3968.JPG")}
-              onMouseLeave={() => setHoveredImage(null)}
-            >
               <Image
                 src="/images/leo-portrait-2.jpg"
                 alt="Leo Pastel portrait in natural setting"
