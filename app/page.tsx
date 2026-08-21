@@ -358,20 +358,20 @@ export default function Home() {
         {/* Music & Social Links */}
         <section id="music-section" className="px-6 md:px-12 lg:px-24 mb-16">
           <div className="max-w-3xl mx-auto">
-            <div className="flex flex-col md:flex-row gap-12 md:gap-24">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-12">
               {/* Music Links */}
-              <div className="flex-1">
-                <h2 className="text-2xl md:text-3xl font-bold mb-8" style={{ letterSpacing: "-0.01em" }}>
+              <div className="min-w-0 flex-1">
+                <h2 className="text-xl md:text-2xl font-bold mb-6" style={{ letterSpacing: "-0.01em" }}>
                   MUSIC
                 </h2>
-                <div className="flex gap-6 overflow-x-auto">
+                <div className="flex gap-3 overflow-x-auto">
                   <a
                     href="https://music.apple.com/us/artist/leo-pastel/1402898502"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Music className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold whitespace-nowrap">APPLE MUSIC</span>
@@ -383,7 +383,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Radio className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">SPOTIFY</span>
@@ -395,7 +395,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Headphones className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">TIDAL</span>
@@ -407,7 +407,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Globe className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">AUDIUS</span>
@@ -419,7 +419,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Disc3 className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">BANDCAMP</span>
@@ -428,21 +428,21 @@ export default function Home() {
               </div>
 
               {/* Social Links */}
-              <div id="connect-section" className="flex-1">
+              <div id="connect-section" className="min-w-0 flex-1">
                 <h2
-                  className="text-2xl md:text-3xl font-bold mb-8 text-right md:text-right"
+                  className="text-xl md:text-2xl font-bold mb-6 text-right md:text-right"
                   style={{ letterSpacing: "-0.01em" }}
                 >
                   CONNECT
                 </h2>
-                <div className="flex gap-6 justify-end overflow-x-auto">
+                <div className="flex gap-3 justify-end overflow-x-auto">
                   <a
                     href="https://instagram.com/1980wavy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Instagram className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">INSTAGRAM</span>
@@ -454,7 +454,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Twitter className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">X</span>
@@ -466,7 +466,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Video className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">TIKTOK</span>
@@ -478,7 +478,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center group hover:opacity-70 transition-opacity"
                   >
-                    <div className="w-12 h-12 mb-2 flex items-center justify-center">
+                    <div className="w-10 h-10 mb-1 flex items-center justify-center">
                       <Globe className="w-8 h-8" />
                     </div>
                     <span className="text-xs font-bold">FARCASTER</span>
