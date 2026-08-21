@@ -124,20 +124,21 @@ export default function Home() {
             {/* Removed the h2 heading here */}
             <div className="space-y-6 text-base md:text-lg leading-relaxed font-bold">
               <p>
-                Leo Pastel made his debut in 2018 with "Woah", a track created alongside close friends Muwosi and
-                internetboy. The song's early success launched a dynamic career that has included performing with Kanye
-                West's Sunday Service Choir, being tapped by The National to play their Cincy-based Homecoming Festival,
-                and co-founding the Detroit-based indie band Hard Car Kids.
+                Leo Pastel is a multidisciplinary artist from Cincinnati, Ohio. Raised in a family where music was woven
+                into everyday life, he developed his voice in church before releasing his debut single, "Woah", in 2018,
+                the first iteration of a sound that culminated in "Oxytocin" in 2023.
               </p>
               <p>
-                A self-described "multisensory artist", Leo loves experimenting with novel technology. He's an early
-                adopter of AI music, an active contributor to the onchain music space, and also works as a freelance
-                graphic and UX designer.
+                Drawing from alternative R&B, indie, gospel, funk, soul, and electronic music, Leo’s work is rooted in
+                vulnerability, harmony, and exploration. Outside of his solo releases, he’s a founding member of the
+                Detroit-based boyband Hard Car Kids, has performed with Ye’s Sunday Service Choir, and was tapped by
+                fellow Cincinnati natives, The National, to perform at their Homecoming Festival.
               </p>
               <p>
-                Leo cares deeply about family and community. Raised one of six in a faith-driven household, he now
-                channels those values into THE 3THER—a grassroots creative collective traveling the country and hosting
-                events, while staying true to its mission of spreading love through art.
+                Leo’s work is informed by an interdisciplinary approach spanning design, psychology, and creative
+                technology. He’s deeply interested in ways humans experience, connect, and create in a sustainable
+                fashion. He funnels the same inquiry through every medium, exploring how creativity keeps us grounded
+                in an ever-changing world.
               </p>
             </div>
           </div>
