@@ -86,7 +86,10 @@ export default function Home() {
 
         {/* Header */}
         <header className="px-6 py-8 md:px-12 lg:px-24 text-center">
-          <p className="text-lg md:text-xl font-bold">❦ Cincinnati, Ohio ✞</p>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold" style={{ letterSpacing: "-0.05em" }}>
+            Leo Pastel
+          </h1>
+          <p className="text-lg md:text-xl mt-2 font-bold">❦ Cincinnati, Ohio ✞</p>
         </header>
 
         {/* Hero Image */}
@@ -94,16 +97,9 @@ export default function Home() {
           <div className="max-w-3xl mx-auto">
             <div
               className="relative aspect-[4/3] md:aspect-[16/9] group cursor-pointer"
-              aria-label="Leo Pastel portrait"
               onMouseEnter={() => setHoveredImage("FWB-LEO-keeganburckhard-3968.JPG")}
               onMouseLeave={() => setHoveredImage(null)}
             >
-              <h1
-                className="absolute inset-x-4 top-4 z-10 text-center text-[clamp(3.5rem,12vw,9rem)] font-bold leading-[0.82] whitespace-nowrap"
-                style={{ letterSpacing: "-0.08em" }}
-              >
-                Leo Pastel
-              </h1>
               <Image
                 src="/images/leo-portrait-2.jpg"
                 alt="Leo Pastel portrait in natural setting"
