@@ -85,7 +85,7 @@ export default function Home() {
         </div>
 
         {/* Header */}
-        <header className="px-6 py-8 md:px-12 lg:px-24 text-center">
+        <header className="max-w-3xl mx-auto px-0 py-8 text-left">
           <h1
             className="text-5xl md:text-8xl lg:text-[11.75rem] leading-none whitespace-nowrap font-bold"
             style={{ letterSpacing: "-0.1em" }}
