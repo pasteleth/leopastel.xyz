@@ -88,9 +88,20 @@ export default function Home() {
         <header className="max-w-3xl mx-auto px-0 py-8 text-left">
           <h1
             className="text-5xl md:text-8xl lg:text-[11.75rem] leading-none whitespace-nowrap font-bold"
-            style={{ letterSpacing: "-0.1em" }}
+            style={{ letterSpacing: "-0.04em" }}
+            aria-label="Leo Pastel"
           >
-            Leo Pastel
+            <span aria-hidden="true">
+              <span style={{ marginRight: "-0.015em" }}>L</span>
+              <span style={{ marginRight: "0.01em" }}>e</span>
+              <span style={{ marginRight: "0.12em" }}>o</span>
+              <span style={{ marginRight: "0.02em" }}>P</span>
+              <span style={{ marginRight: "0.005em" }}>a</span>
+              <span style={{ marginRight: "-0.01em" }}>s</span>
+              <span style={{ marginRight: "0.005em" }}>t</span>
+              <span style={{ marginRight: "0.005em" }}>e</span>
+              <span>l</span>
+            </span>
           </h1>
           <p className="text-lg md:text-xl mt-2 font-bold">❦ Cincinnati, Ohio ✞</p>
         </header>
