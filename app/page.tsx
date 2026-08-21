@@ -85,9 +85,9 @@ export default function Home() {
         </div>
 
         {/* Header */}
-        <header className="max-w-3xl mx-auto px-0 py-8 text-left">
+        <header className="max-w-3xl mx-auto px-6 py-8 text-left sm:px-6 md:px-0">
           <h1
-            className="w-full text-[clamp(3.25rem,12vw,10.75rem)] leading-none font-bold tracking-[-0.05em] sm:text-center"
+            className="w-full text-[clamp(4rem,18.5vw,10.75rem)] leading-none font-bold tracking-[-0.05em] sm:text-center"
             aria-label="Leo Pastel"
           >
             Leo Pastel
