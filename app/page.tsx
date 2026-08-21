@@ -88,7 +88,7 @@ export default function Home() {
         <header className="max-w-3xl mx-auto px-0 py-8 text-left">
           <h1
             className="text-5xl md:text-8xl lg:text-[11.75rem] leading-none whitespace-nowrap font-bold"
-            style={{ letterSpacing: "-0.04em" }}
+            style={{ letterSpacing: "-0.01em" }}
             aria-label="Leo Pastel"
           >
             <span aria-hidden="true">
