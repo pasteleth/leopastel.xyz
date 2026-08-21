@@ -87,8 +87,8 @@ export default function Home() {
         {/* Header */}
         <header className="px-6 py-8 md:px-12 lg:px-24 text-center">
           <h1
-            className="text-5xl md:text-8xl lg:text-[10.5rem] leading-none whitespace-nowrap font-bold"
-            style={{ letterSpacing: "-0.08em" }}
+            className="text-5xl md:text-8xl lg:text-[11.75rem] leading-none whitespace-nowrap font-bold"
+            style={{ letterSpacing: "-0.1em" }}
           >
             Leo Pastel
           </h1>
