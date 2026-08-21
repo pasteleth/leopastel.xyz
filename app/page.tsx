@@ -357,7 +357,7 @@ export default function Home() {
 
         {/* Music & Social Links */}
         <section id="music-section" className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <div className="flex flex-col md:flex-row gap-12 md:gap-24">
               {/* Music Links */}
               <div className="flex-1">
