@@ -146,7 +146,7 @@ export default function Home() {
 
         {/* Image Gallery */}
         <section className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <div
                 className="relative aspect-[3/4] group cursor-pointer"
@@ -193,7 +193,7 @@ export default function Home() {
 
         {/* Mosaic Gallery */}
         <section id="gallery-section" className="px-6 md:px-12 lg:px-24 mb-16">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             {/* Removed the h2 heading here */}
             <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-2 space-y-2">
               {/* Meta SXSW - Portrait orientation */}
