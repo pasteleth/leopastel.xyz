@@ -85,15 +85,15 @@ export default function Home() {
         </div>
 
         {/* Header */}
-        <header className="max-w-3xl mx-auto px-6 py-8 text-left sm:px-6 md:px-0">
+        <header className="px-6 md:px-12 lg:px-24 pt-24 pb-8 md:pt-8 text-center">
           <h1
-            className="w-full text-[clamp(4rem,18.5vw,10.75rem)] leading-none font-bold tracking-[-0.05em] sm:text-center"
+            className="text-[clamp(3rem,13vw,10.75rem)] leading-none font-bold tracking-[-0.05em]"
             aria-label="Leo Pastel"
           >
             Leo Pastel
           </h1>
-          <p className="mt-3 w-full text-center text-base font-bold leading-tight sm:text-lg md:text-xl">
-            <span aria-hidden="true">&#10086;</span> Cincinnati, Ohio <span aria-hidden="true">&#10014;</span>
+          <p className="mt-3 text-base font-bold leading-tight sm:text-lg md:text-xl">
+Cincinnati, Ohio
           </p>
         </header>
 
