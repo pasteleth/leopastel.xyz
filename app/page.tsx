@@ -85,25 +85,16 @@ export default function Home() {
         </div>
 
         {/* Header */}
-        <header className="max-w-3xl mx-auto px-0 py-8 text-left">
+        <header className="px-6 md:px-12 lg:px-24 pt-24 pb-8 md:pt-8 text-center">
           <h1
-            className="text-5xl md:text-8xl lg:text-[10.75rem] leading-none whitespace-nowrap font-bold"
-style={{ letterSpacing: "-0.05em" }}
+            className="text-[clamp(3rem,13vw,10.75rem)] leading-none font-bold tracking-[-0.05em]"
             aria-label="Leo Pastel"
           >
-            <span aria-hidden="true">
-              <span style={{ marginRight: "-0.015em" }}>L</span>
-              <span style={{ marginRight: "0.01em" }}>e</span>
-              <span style={{ marginRight: "0.12em" }}>o</span>
-              <span style={{ marginRight: "0.02em" }}>P</span>
-              <span style={{ marginRight: "0.005em" }}>a</span>
-              <span style={{ marginRight: "-0.01em" }}>s</span>
-              <span style={{ marginRight: "0.005em" }}>t</span>
-              <span style={{ marginRight: "0.005em" }}>e</span>
-              <span>l</span>
-            </span>
+            Leo Pastel
           </h1>
-          <p className="text-lg md:text-xl mt-2 font-bold">❦ Cincinnati, Ohio ✞</p>
+          <p className="mt-3 text-base font-bold leading-tight sm:text-lg md:text-xl">
+Cincinnati, Ohio
+          </p>
         </header>
 
         {/* Hero Image */}
